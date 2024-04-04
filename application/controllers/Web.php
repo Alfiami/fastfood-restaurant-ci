@@ -8,12 +8,10 @@ class Web extends CI_Controller {
         parent::__construct();
         $this->load->helper('url');
     }
-
     public function index(){
         $this->load->view('v_header');
         $this->load->view('v_index');
         $this->load->view('v_footer');
-
     }
     public function about(){
         $this->load->view('v_header');
